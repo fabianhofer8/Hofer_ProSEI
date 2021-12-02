@@ -18,6 +18,8 @@ class StatsViewController: UIViewController{
     }
     private let urlSession = URLSession.shared
 
+    
+    
     @IBOutlet var gamesPlayed: UILabel!
     @IBOutlet var teamLogo: UIImageView!
     @IBOutlet var teamName: UILabel!
@@ -133,6 +135,8 @@ class StatsViewController: UIViewController{
             self.assists.layer.cornerRadius = 5
             self.points.layer.masksToBounds  = true
             self.points.layer.cornerRadius = 5
+                
+            // add api data into view
             
             if let lns = self.lastNameString{
                 self.lastName.text = lns
@@ -184,7 +188,7 @@ class StatsViewController: UIViewController{
 
             }
             
-            // second block
+            // bottom four values
             
             
             if let hts = self.statItems.Hits{
@@ -246,6 +250,7 @@ class StatsViewController: UIViewController{
 
     }
     
+    //request stats from player
  func requestStats(completion: @escaping (Stats?, Error?) -> Void){
         
         guard let url = URL(string: "https://api.sportsdata.io/v3/nhl/stats/json/PlayerSeasonStatsByPlayer/2021/\(id)?key=ec5135b9a9fa4c77b3bea367337399d6") else{

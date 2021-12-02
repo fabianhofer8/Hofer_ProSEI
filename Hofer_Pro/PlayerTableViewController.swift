@@ -160,6 +160,7 @@ class PlayerTableViewController: UITableViewController {
            let cell = sender as? PlayerTableViewcell,
            let indexPath = tableView.indexPath(for: cell){
             
+            // send necessary information (Teamname, Picture ulr, etc to next view)
             
             let player = playerItems.array[indexPath.row]
             newController.teamNameString = teamName
