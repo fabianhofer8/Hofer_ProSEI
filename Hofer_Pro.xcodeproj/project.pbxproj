@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19FEF362817AEB79CB3ED5EB /* Pods_Hofer_ProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB08B51723A84EFC2CC78B1 /* Pods_Hofer_ProTests.framework */; };
+		6F48C69827565A3000C8E90D /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F48C69727565A3000C8E90D /* PlayerTableViewController.swift */; };
+		6F48C69A27565B9F00C8E90D /* PlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F48C69927565B9F00C8E90D /* PlayerItem.swift */; };
+		6F48C69C27565D0E00C8E90D /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F48C69B27565D0E00C8E90D /* PlayerTableViewCell.swift */; };
+		6F5C50B42755118D00B8D63D /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C50B32755118D00B8D63D /* TeamTableViewCell.swift */; };
+		6F5C50B62755127E00B8D63D /* TeamItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C50B52755127E00B8D63D /* TeamItem.swift */; };
+		6F5C50BC275529FB00B8D63D /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C50BB275529FB00B8D63D /* TeamsTableViewController.swift */; };
+		6FB902742756B02000E2A39B /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB902732756B02000E2A39B /* StatsViewController.swift */; };
+		6FB902762756BC4B00E2A39B /* StatsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB902752756BC4B00E2A39B /* StatsItem.swift */; };
+		6FF763FE274E6285009389D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF763FD274E6285009389D2 /* AppDelegate.swift */; };
+		6FF76400274E6285009389D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF763FF274E6285009389D2 /* SceneDelegate.swift */; };
+		6FF76405274E6285009389D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF76403274E6285009389D2 /* Main.storyboard */; };
+		6FF76407274E6287009389D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF76406274E6287009389D2 /* Assets.xcassets */; };
+		6FF7640A274E6287009389D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF76408274E6287009389D2 /* LaunchScreen.storyboard */; };
+		6FF76415274E6287009389D2 /* Hofer_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF76414274E6287009389D2 /* Hofer_ProTests.swift */; };
+		6FF7641F274E6287009389D2 /* Hofer_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7641E274E6287009389D2 /* Hofer_ProUITests.swift */; };
+		6FF76421274E6287009389D2 /* Hofer_ProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF76420274E6287009389D2 /* Hofer_ProUITestsLaunchTests.swift */; };
+		83B81D908D28691F16A27426 /* Pods_Hofer_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29EC421372278D04626DD48 /* Pods_Hofer_Pro.framework */; };
+		D73CBA7ACE7D74EA81BCD78E /* Pods_Hofer_Pro_Hofer_ProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300C11B1A003F4C2D1455A35 /* Pods_Hofer_Pro_Hofer_ProUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FF76411274E6287009389D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF763F2274E6285009389D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FF763F9274E6285009389D2;
+			remoteInfo = Hofer_Pro;
+		};
+		6FF7641B274E6287009389D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF763F2274E6285009389D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FF763F9274E6285009389D2;
+			remoteInfo = Hofer_Pro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099DD714B8B9EC882FF96EA6 /* Pods-Hofer_Pro-Hofer_ProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hofer_Pro-Hofer_ProUITests.release.xcconfig"; path = "Target Support Files/Pods-Hofer_Pro-Hofer_ProUITests/Pods-Hofer_Pro-Hofer_ProUITests.release.xcconfig"; sourceTree = "<group>"; };
+		300C11B1A003F4C2D1455A35 /* Pods_Hofer_Pro_Hofer_ProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hofer_Pro_Hofer_ProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E2954DCC8F255478CCD3ED /* Pods-Hofer_Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hofer_Pro.release.xcconfig"; path = "Target Support Files/Pods-Hofer_Pro/Pods-Hofer_Pro.release.xcconfig"; sourceTree = "<group>"; };
+		4FB08B51723A84EFC2CC78B1 /* Pods_Hofer_ProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hofer_ProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F48C69727565A3000C8E90D /* PlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+		6F48C69927565B9F00C8E90D /* PlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerItem.swift; sourceTree = "<group>"; };
+		6F48C69B27565D0E00C8E90D /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		6F5C50B32755118D00B8D63D /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		6F5C50B52755127E00B8D63D /* TeamItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamItem.swift; sourceTree = "<group>"; };
+		6F5C50BB275529FB00B8D63D /* TeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		6FB902732756B02000E2A39B /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		6FB902752756BC4B00E2A39B /* StatsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItem.swift; sourceTree = "<group>"; };
+		6FF763FA274E6285009389D2 /* Hofer_Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hofer_Pro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF763FD274E6285009389D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FF763FF274E6285009389D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FF76404274E6285009389D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FF76406274E6287009389D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FF76409274E6287009389D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FF7640B274E6287009389D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF76410274E6287009389D2 /* Hofer_ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hofer_ProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF76414274E6287009389D2 /* Hofer_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hofer_ProTests.swift; sourceTree = "<group>"; };
+		6FF7641A274E6287009389D2 /* Hofer_ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hofer_ProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF7641E274E6287009389D2 /* Hofer_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hofer_ProUITests.swift; sourceTree = "<group>"; };
+		6FF76420274E6287009389D2 /* Hofer_ProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hofer_ProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86B61C4860701212E70CFADF /* Pods-Hofer_Pro-Hofer_ProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hofer_Pro-Hofer_ProUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hofer_Pro-Hofer_ProUITests/Pods-Hofer_Pro-Hofer_ProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91EE11AD3E17595B469D0B10 /* Pods-Hofer_ProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hofer_ProTests.debug.xcconfig"; path = "Target Support Files/Pods-Hofer_ProTests/Pods-Hofer_ProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E29EC421372278D04626DD48 /* Pods_Hofer_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hofer_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53F0DD028A8EA67D455DE96 /* Pods-Hofer_ProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hofer_ProTests.release.xcconfig"; path = "Target Support Files/Pods-Hofer_ProTests/Pods-Hofer_ProTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3757CDE3CCD3E36118B6D4E /* Pods-Hofer_Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hofer_Pro.debug.xcconfig"; path = "Target Support Files/Pods-Hofer_Pro/Pods-Hofer_Pro.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF763F7274E6285009389D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B81D908D28691F16A27426 /* Pods_Hofer_Pro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF7640D274E6287009389D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FEF362817AEB79CB3ED5EB /* Pods_Hofer_ProTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF76417274E6287009389D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73CBA7ACE7D74EA81BCD78E /* Pods_Hofer_Pro_Hofer_ProUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0EF499ADBDCF430B7CE749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E29EC421372278D04626DD48 /* Pods_Hofer_Pro.framework */,
+				300C11B1A003F4C2D1455A35 /* Pods_Hofer_Pro_Hofer_ProUITests.framework */,
+				4FB08B51723A84EFC2CC78B1 /* Pods_Hofer_ProTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF763F1274E6285009389D2 = {
+			isa = PBXGroup;
+			children = (
+				6FF763FC274E6285009389D2 /* Hofer_Pro */,
+				6FF76413274E6287009389D2 /* Hofer_ProTests */,
+				6FF7641D274E6287009389D2 /* Hofer_ProUITests */,
+				6FF763FB274E6285009389D2 /* Products */,
+				A91303FAF3CD84B6AA6ECA4E /* Pods */,
+				6D0EF499ADBDCF430B7CE749 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF763FB274E6285009389D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF763FA274E6285009389D2 /* Hofer_Pro.app */,
+				6FF76410274E6287009389D2 /* Hofer_ProTests.xctest */,
+				6FF7641A274E6287009389D2 /* Hofer_ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF763FC274E6285009389D2 /* Hofer_Pro */ = {
+			isa = PBXGroup;
+			children = (
+				6FF763FD274E6285009389D2 /* AppDelegate.swift */,
+				6FF763FF274E6285009389D2 /* SceneDelegate.swift */,
+				6F5C50B32755118D00B8D63D /* TeamTableViewCell.swift */,
+				6F5C50B52755127E00B8D63D /* TeamItem.swift */,
+				6F5C50BB275529FB00B8D63D /* TeamsTableViewController.swift */,
+				6FF76403274E6285009389D2 /* Main.storyboard */,
+				6FF76406274E6287009389D2 /* Assets.xcassets */,
+				6F48C69727565A3000C8E90D /* PlayerTableViewController.swift */,
+				6F48C69927565B9F00C8E90D /* PlayerItem.swift */,
+				6F48C69B27565D0E00C8E90D /* PlayerTableViewCell.swift */,
+				6FB902732756B02000E2A39B /* StatsViewController.swift */,
+				6FB902752756BC4B00E2A39B /* StatsItem.swift */,
+				6FF7640B274E6287009389D2 /* Info.plist */,
+				6FF76408274E6287009389D2 /* LaunchScreen.storyboard */,
+			);
+			path = Hofer_Pro;
+			sourceTree = "<group>";
+		};
+		6FF76413274E6287009389D2 /* Hofer_ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FF76414274E6287009389D2 /* Hofer_ProTests.swift */,
+			);
+			path = Hofer_ProTests;
+			sourceTree = "<group>";
+		};
+		6FF7641D274E6287009389D2 /* Hofer_ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7641E274E6287009389D2 /* Hofer_ProUITests.swift */,
+				6FF76420274E6287009389D2 /* Hofer_ProUITestsLaunchTests.swift */,
+			);
+			path = Hofer_ProUITests;
+			sourceTree = "<group>";
+		};
+		A91303FAF3CD84B6AA6ECA4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3757CDE3CCD3E36118B6D4E /* Pods-Hofer_Pro.debug.xcconfig */,
+				31E2954DCC8F255478CCD3ED /* Pods-Hofer_Pro.release.xcconfig */,
+				86B61C4860701212E70CFADF /* Pods-Hofer_Pro-Hofer_ProUITests.debug.xcconfig */,
+				099DD714B8B9EC882FF96EA6 /* Pods-Hofer_Pro-Hofer_ProUITests.release.xcconfig */,
+				91EE11AD3E17595B469D0B10 /* Pods-Hofer_ProTests.debug.xcconfig */,
+				E53F0DD028A8EA67D455DE96 /* Pods-Hofer_ProTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF763F9274E6285009389D2 /* Hofer_Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF76424274E6287009389D2 /* Build configuration list for PBXNativeTarget "Hofer_Pro" */;
+			buildPhases = (
+				DAF8C5117BFF6DEF92DFBAB4 /* [CP] Check Pods Manifest.lock */,
+				6FF763F6274E6285009389D2 /* Sources */,
+				6FF763F7274E6285009389D2 /* Frameworks */,
+				6FF763F8274E6285009389D2 /* Resources */,
+				FA9242ED689C54DA58A4BEEA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hofer_Pro;
+			productName = Hofer_Pro;
+			productReference = 6FF763FA274E6285009389D2 /* Hofer_Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FF7640F274E6287009389D2 /* Hofer_ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF76427274E6287009389D2 /* Build configuration list for PBXNativeTarget "Hofer_ProTests" */;
+			buildPhases = (
+				AD8FC99DB9E8F3193E4BDFB7 /* [CP] Check Pods Manifest.lock */,
+				6FF7640C274E6287009389D2 /* Sources */,
+				6FF7640D274E6287009389D2 /* Frameworks */,
+				6FF7640E274E6287009389D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FF76412274E6287009389D2 /* PBXTargetDependency */,
+			);
+			name = Hofer_ProTests;
+			productName = Hofer_ProTests;
+			productReference = 6FF76410274E6287009389D2 /* Hofer_ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FF76419274E6287009389D2 /* Hofer_ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF7642A274E6287009389D2 /* Build configuration list for PBXNativeTarget "Hofer_ProUITests" */;
+			buildPhases = (
+				5E28B14DA1D3E1CD9EE67FC1 /* [CP] Check Pods Manifest.lock */,
+				6FF76416274E6287009389D2 /* Sources */,
+				6FF76417274E6287009389D2 /* Frameworks */,
+				6FF76418274E6287009389D2 /* Resources */,
+				A710B84C104C91C676D2CCAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FF7641C274E6287009389D2 /* PBXTargetDependency */,
+			);
+			name = Hofer_ProUITests;
+			productName = Hofer_ProUITests;
+			productReference = 6FF7641A274E6287009389D2 /* Hofer_ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF763F2274E6285009389D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6FF763F9274E6285009389D2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6FF7640F274E6287009389D2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6FF763F9274E6285009389D2;
+					};
+					6FF76419274E6287009389D2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6FF763F9274E6285009389D2;
+					};
+				};
+			};
+			buildConfigurationList = 6FF763F5274E6285009389D2 /* Build configuration list for PBXProject "Hofer_Pro" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FF763F1274E6285009389D2;
+			productRefGroup = 6FF763FB274E6285009389D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF763F9274E6285009389D2 /* Hofer_Pro */,
+				6FF7640F274E6287009389D2 /* Hofer_ProTests */,
+				6FF76419274E6287009389D2 /* Hofer_ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF763F8274E6285009389D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF7640A274E6287009389D2 /* LaunchScreen.storyboard in Resources */,
+				6FF76407274E6287009389D2 /* Assets.xcassets in Resources */,
+				6FF76405274E6285009389D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF7640E274E6287009389D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF76418274E6287009389D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E28B14DA1D3E1CD9EE67FC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hofer_Pro-Hofer_ProUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A710B84C104C91C676D2CCAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hofer_Pro-Hofer_ProUITests/Pods-Hofer_Pro-Hofer_ProUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hofer_Pro-Hofer_ProUITests/Pods-Hofer_Pro-Hofer_ProUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hofer_Pro-Hofer_ProUITests/Pods-Hofer_Pro-Hofer_ProUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8FC99DB9E8F3193E4BDFB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hofer_ProTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF8C5117BFF6DEF92DFBAB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hofer_Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9242ED689C54DA58A4BEEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hofer_Pro/Pods-Hofer_Pro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hofer_Pro/Pods-Hofer_Pro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hofer_Pro/Pods-Hofer_Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF763F6274E6285009389D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5C50B62755127E00B8D63D /* TeamItem.swift in Sources */,
+				6F5C50B42755118D00B8D63D /* TeamTableViewCell.swift in Sources */,
+				6F48C69827565A3000C8E90D /* PlayerTableViewController.swift in Sources */,
+				6F5C50BC275529FB00B8D63D /* TeamsTableViewController.swift in Sources */,
+				6FB902762756BC4B00E2A39B /* StatsItem.swift in Sources */,
+				6F48C69C27565D0E00C8E90D /* PlayerTableViewCell.swift in Sources */,
+				6F48C69A27565B9F00C8E90D /* PlayerItem.swift in Sources */,
+				6FF763FE274E6285009389D2 /* AppDelegate.swift in Sources */,
+				6FB902742756B02000E2A39B /* StatsViewController.swift in Sources */,
+				6FF76400274E6285009389D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF7640C274E6287009389D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF76415274E6287009389D2 /* Hofer_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF76416274E6287009389D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF7641F274E6287009389D2 /* Hofer_ProUITests.swift in Sources */,
+				6FF76421274E6287009389D2 /* Hofer_ProUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FF76412274E6287009389D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FF763F9274E6285009389D2 /* Hofer_Pro */;
+			targetProxy = 6FF76411274E6287009389D2 /* PBXContainerItemProxy */;
+		};
+		6FF7641C274E6287009389D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FF763F9274E6285009389D2 /* Hofer_Pro */;
+			targetProxy = 6FF7641B274E6287009389D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FF76403274E6285009389D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF76404274E6285009389D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FF76408274E6287009389D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF76409274E6287009389D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FF76422274E6287009389D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FF76423274E6287009389D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF76425274E6287009389D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3757CDE3CCD3E36118B6D4E /* Pods-Hofer_Pro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hofer_Pro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hagenberg.Hofer-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FF76426274E6287009389D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E2954DCC8F255478CCD3ED /* Pods-Hofer_Pro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hofer_Pro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hagenberg.Hofer-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FF76428274E6287009389D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EE11AD3E17595B469D0B10 /* Pods-Hofer_ProTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hagenberg.Hofer-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hofer_Pro.app/Hofer_Pro";
+			};
+			name = Debug;
+		};
+		6FF76429274E6287009389D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53F0DD028A8EA67D455DE96 /* Pods-Hofer_ProTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hagenberg.Hofer-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hofer_Pro.app/Hofer_Pro";
+			};
+			name = Release;
+		};
+		6FF7642B274E6287009389D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B61C4860701212E70CFADF /* Pods-Hofer_Pro-Hofer_ProUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hagenberg.Hofer-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hofer_Pro;
+			};
+			name = Debug;
+		};
+		6FF7642C274E6287009389D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099DD714B8B9EC882FF96EA6 /* Pods-Hofer_Pro-Hofer_ProUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hagenberg.Hofer-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hofer_Pro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF763F5274E6285009389D2 /* Build configuration list for PBXProject "Hofer_Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF76422274E6287009389D2 /* Debug */,
+				6FF76423274E6287009389D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF76424274E6287009389D2 /* Build configuration list for PBXNativeTarget "Hofer_Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF76425274E6287009389D2 /* Debug */,
+				6FF76426274E6287009389D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF76427274E6287009389D2 /* Build configuration list for PBXNativeTarget "Hofer_ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF76428274E6287009389D2 /* Debug */,
+				6FF76429274E6287009389D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF7642A274E6287009389D2 /* Build configuration list for PBXNativeTarget "Hofer_ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF7642B274E6287009389D2 /* Debug */,
+				6FF7642C274E6287009389D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF763F2274E6285009389D2 /* Project object */;
+}
