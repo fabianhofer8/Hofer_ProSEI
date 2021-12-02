@@ -93,7 +93,7 @@ class PlayerTableViewController: UITableViewController {
             jersey = 00
         }
         
-        
+//        position and number string
         cell.positionNR.text = "\(posString), #\(jersey)"
         positionNrString = "\(posString), #\(jersey)"
         
